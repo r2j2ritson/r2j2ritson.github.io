@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "dbe0a6c6"
+  },
+  "about.qmd": {
+    "about.html": "e27313cf"
+  },
+  "Solar Eclipse.qmd": {
+    "Solar Eclipse.html": "c5a1fafc"
+  },
+  "fsvmproj.qmd": {
+    "fsvmproj.html": "849212ad"
+  },
+  "seasonalranges.qmd": {
+    "seasonalranges.html": "191202f7"
+  },
+  "eclipse.qmd": {
+    "eclipse.html": "43fc2001"
+  },
+  "eclipseproj.qmd": {
+    "eclipseproj.html": "2e46f0f7"
+  },
+  "bisonproj.qmd": {
+    "bisonproj.html": "81824c43"
+  }
+}

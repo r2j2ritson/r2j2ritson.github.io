@@ -1,0 +1,115 @@
+---
+title: "Curriculum Vitae"
+---
+
+## {{< fa school >}} **Education**
+
+{{< fa graduation-cap >}} M.S. Biology, University of Nebraska-Kearney (2019)
+
+{{< fa graduation-cap >}} B.S. Wildlife and Fisheries Sciences, The Pennsylvania State University (2014)
+
+## {{< fa certificate >}} **Certifcations**
+
+Associate Wildlife Biologist®, The Wildlife Society
+
+## {{< fa building >}} Experience
+
+{{< fa briefcase >}} Associate Research Scientist, University of Wyoming and Idaho Department of Fish and Game, February 2022 - present.
+
+{{< fa briefcase >}} Research Associate - Vegetation Modeling, Wildlife Management Institute and Idaho Department of Fish and Game, March 2021 - January 2022.
+
+{{< fa briefcase >}} Wildlife Technician, Idaho Department of Fish and Game, November 2019 - June 2020; November 2020 - March 2021.
+
+{{< fa briefcase >}} Habitat Biologist Technician, Wyoming Game and Fish Department, May - October 2019.
+
+{{< fa briefcase >}} Biological Science Technician (GS-05), USFS Rocky Mountain Research Station, June - September 2016; June - August 2017.
+
+{{< fa briefcase >}} Wild Turkey Technician, West Virginia University, April - June 2017.
+
+{{< fa briefcase >}} Lead Wildlife Research Technician, Idaho Department of Fish and Game, March - May 2016.
+
+{{< fa briefcase >}} Research Associate, Montana State University, June - October 2015.
+
+{{< fa briefcase >}} Sage-grouse Technician, University of Wyoming, March - June 2015.
+
+{{< fa briefcase >}} Snowshoe Hare Technician, Pennsylvania Cooperative Fish and Wildlife Research Unit, January - March 2015.
+
+{{< fa briefcase >}} Biological Science Aid (GS-03), Wind Cave National Park, June - August 2014.
+
+## {{< fa diagram-project >}}Research Projects
+
+{{< fa paw >}} Mule deer seasonal range analysis. February 2022 – present. Collaborators: Scott Bergen, Matt Mumma, Shane Roberts, Mark Hurley. Idaho Department of Fish and Game. Pocatello, ID.
+
+{{< fa tree >}} Fine-scale vegetation model. March 2021 – present. Collaborators: Erin Roche, Sara Thompson, Scott Bergen, Matt Mumma, Shane Roberts, Mark Hurley. Idaho Department of Fish and Game. Boise, ID.
+
+{{< fa paw >}} Thesis: Spatial Ecology of Bison in the American West. August 2017 - May 2019 Collaborators: Nate Bickford, Melissa Wuellner, Angela Hollman, and Dustin H. Ranglack. University of Nebraska-Kearney. Kearney, NE.
+
+{{< fa moon >}} Effects of 2017 solar eclipse on animal behavior. August 2017 - May 2019. Collaborators: Nate Bickford, Melissa Wuellner, Dustin H. Ranglack, et al. University of Nebraska-Kearney. Kearney, NE.
+
+{{< fa feather-pointed >}} Ecological Correlates of Game Bird Distribution in Northern Tanzania. February – May 2013. Advisor: John Kioko. The School for Field Studies Center for Wildlife Management Studies. Karatu, TZ.
+
+## {{< fa file-pen >}}Publications
+
+{{< fa user-pen >}} Ritson R, Ranglack DH, Bickford N. 2019. Comparing Social Media Observations of Animals During a Solar Eclipse to Published Research. Animals 9(59):1-12. doi:10.3390/ani9020059
+
+> {{< fa user-pen >}} Ritson R, Barg A, Shannon J, Hershey K, Shoenecker KA, Beard D, Kunkel K, Kinka D, Ranglack DH. Seasonal space use patterns of American bison across multiple management regimes. Prepared for Journal of Wildlife Management.
+
+> {{< fa user-pen >}} Ritson R, Bickford N, Wuellner M, Fuda RK, Miller TA, Boulanger JR, Beasley JC, Brzorad JN, Fisher R, Orben RA, Barber M, Kays R, Watson JL, Ranglack DH. Obscured Sun, Obscure Behavior: Exploring the Effects of a Solar Eclipse on Animal Movement. Prepared for Movement Ecology.
+
+## {{< fa chalkboard-user >}} Presentations and Posters
+
+{{< fa person-chalkboard >}} Ritson R, Mumma M, Roche E, Bergen S, Roberts S, Hurley M. Towards a fine scale vegetation model. Idaho Chapter of The Wildlife Society Annual Meeting. Virtual. Feb 2022. Oral presentation.
+
+{{< fa person-chalkboard >}} Bergen S, Ritson R, Hurley M, Roberts S. Mule deer population classification using meteorological, phenological and movement data. Idaho Chapter of The Wildlife Society Annual Meeting. Virtual. Feb 2022. Oral presentation.
+
+{{< fa chalkboard >}} Ritson R, Bickford N, Ranglack DH. Variations in American bison resource selection across their former range. 6th Triennial Conference of the American Bison Society. Santa Fe, NM. Oct 2019. Poster.
+
+{{< fa person-chalkboard >}} Ranglack DH, Ritson R, Bickford N. Variations in American bison resource selection across their former range. Joint Annual Conference of the American Fisheries Society and The Wildlife Society. Reno, NV. Sep 2019. Oral presentation.
+
+{{< fa person-chalkboard >}} Ritson R. Spatial ecology of bison in the American West. Thesis defense. University of Nebraska-Kearney. Apr 2019. Oral presentation.
+
+{{< fa person-chalkboard >}} Ritson R. Movement Ecology: Using Animal Locations for Fish and Wildlife Research. Guest Lecture for Quantitative Fish and Wildlife Analysis (BIOL 830P). University of Nebraska-Kearney. Mar 2019. Oral presentation.
+
+{{< fa person-chalkboard >}} Ritson R, Bickford N, Ranglack DH. Seasonal space use patterns of Plains bison (Bison bison) across multiple ecological gradients and management regimes in the American West. Nebraska Chapter of The Wildlife Society Annual Meeting. York, NE. Feb 2019. Oral presentation.
+
+{{< fa person-chalkboard >}} Ritson R, Bickford N, Ranglack DH. Spatial Requirements of Plains Bison (Bison bison) in the American West. The Wildlife Society 25th Annual Conference. Cleveland, OH. Oct 2018. Oral presentation.
+
+{{< fa chalkboard >}} Bickford N, Ritson R, Ranglack DH. Wildlife Behavior Changes During a Solar Eclipse. The Wildlife Society 25th Annual Conference. Cleveland, OH. Oct 2018. Poster.
+
+{{< fa person-chalkboard >}} Ritson R, Bickford N, Smith L, Bickford S, Bice MR, Ranglack DH. Evaluating the role of CSR and SLO in Ecotourism. Plains Safaris: A conference on tourism and conservation in the Great Plains. Kearney, NE. April 2018. Oral presentation.
+
+{{< fa person-chalkboard >}} Ritson R, Bickford N, Ranglack DH. Does Wildlife Behavior Change in Response to a Solar Eclipse? The Nebraska Academy of Sciences Annual Meeting. Lincoln, NE. April 2018. Oral presentation.
+
+{{< fa chalkboard >}} Ritson R, Bickford N, Ranglack DH. Spatial Requirements of Plains Bison (Bison bison) in the American West. Central Mountains and Plains Section of the Wildlife Society Annual Meeting. Kearney, NE. March 2018. Poster.
+
+## {{< fa network-wired >}} Professional Development
+
+{{< fa computer >}} Animal movement analyses: A to Z, with lots of R. June 2018. British Ecological Society, Movement Ecology Special Interest Group. Vancouver, BC. Speakers: Marie Auger-Methe, Luca Borger, Garrett Street. Workshop
+
+## {{< fa people-group >}} Professional Service
+
+### *Idaho Chapter of The Wildlife Society*
+
+{{< fa user >}} Co-chair, Sponsorship Committee
+
+{{< fa handshake >}} Membership Committee
+
+{{< fa handshake >}} Annual Meeting Volunteer
+
+### *Northwest Section of The Wildlife Society*
+
+{{< fa scroll >}} Bylaws and Operations Manual Committee
+
+### *International Journal of Ecology*
+
+{{< fa pen >}} Reviewer
+
+## {{< fa medal >}} Honors and Awards
+
+{{< fa award >}} Most Outstanding Thesis Award, University of Nebraska-Kearney (2020)
+
+{{< fa sack-dollar >}} Shikar-Safari Club Scholarship (2014)
+
+{{< fa sack-dollar >}} Four Year Conservation Scholarship, Safari Club International Foundation (2014)
+
+{{< fa trophy >}} Eagle Scout, Boy Scouts of America (2009)

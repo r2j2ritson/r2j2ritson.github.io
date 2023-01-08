@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "{{< fa globe >}}"
+  page-footer:
+    left: "© 2023 Robert Ritson"
+    center: "powered by [quarto](https://quarto.org)"
+    right:
+      - icon: github
+        href: https://github.com/r2j2ritson/RSpatial_Wildlife
+      - text: '{{< ai researchgate >}}' 
+        href: https://www.researchgate.net/profile/Robert-Ritson
+      - text: '{{< ai google-scholar >}}' 
+        href: https://scholar.google.com/citations?user=NfH3WwcAAAAJ&hl=en
+  navbar:
+    left:
+      - href: index.qmd
+        text: "{{< fa house >}} Home"
+      - href: about.qmd
+        text: "{{< fa file >}} CV"
+      - href: eclipseproj.qmd
+        text: "{{< fa moon >}} Eclipse Code"
+      - href: fsvmproj.qmd
+        text: "{{< fa tree >}} FSVM"
+      - href: seasonalranges.qmd
+        text: "{{< fa paw >}} Seasonal Ranges"
+
+format:
+  html:
+    theme: 
+      - solar
+      - custom.scss
+    css: 
+      - styles.css
+      - academicons.css
+    toc: true
+execute: 
+  freeze: auto
+

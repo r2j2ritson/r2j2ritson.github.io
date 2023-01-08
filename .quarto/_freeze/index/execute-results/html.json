@@ -1,0 +1,14 @@
+{
+  "hash": "3dbbcc37cc6f5336e92ca0464d7b4d2e",
+  "result": {
+    "markdown": "---\ntitle: \"Robert Ritson's GIS Portfolio\"\n---\n\n\nThis is my GIS Portfolio. The purpose of this site is to showcase the spatial analyses I've completed.\n\n![Robert Ritson](C:/Users/r2j2r/Pictures/IMG_20200524_103402736.jpg)\n\n::: {.cell}\n::: {.cell-output-display}\n![](../../../Pictures/IMG_20200524_103402736.jpg)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
