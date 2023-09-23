@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> - Robert Ritson’s GIS Portfolio</title>
+<title> - Robert Ritson’s Wildlife Research Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,6 +63,19 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="site_libs/mapboxer-binding-0.4.0/mapboxer.js"></script>
+<link href="site_libs/mapbox-gl-1.11.0/mapbox-gl.css" rel="stylesheet">
+<script src="site_libs/mapbox-gl-1.11.0/mapbox-gl.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.29/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="academicons.css">
@@ -76,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><i class="fa-solid fa-globe" aria-label="globe"></i></span>
+    <span class="navbar-title"><i class="fa-solid fa-house" aria-label="house"></i></span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -85,12 +98,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
- <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html">
  <span class="menu-text"><i class="fa-solid fa-file" aria-label="file"></i> CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cameras.html">
+ <span class="menu-text"><i class="fa-solid fa-camera" aria-label="camera"></i> Cameras</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./idfg.html">
+ <span class="menu-text"><i class="fa-solid fa-map-location-dot" aria-label="map-location-dot"></i> IDFG Regional Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./eclipseproj.html">
@@ -101,8 +118,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><i class="fa-solid fa-tree" aria-label="tree"></i> FSVM</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./migrations.html">
+ <span class="menu-text"><i class="fa-solid fa-shuffle" aria-label="shuffle"></i> Migrations</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./seasonalranges.html">
  <span class="menu-text"><i class="fa-solid fa-paw" aria-label="paw"></i> Seasonal Ranges</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./thesis.html">
+ <span class="menu-text"><i class="fa-solid fa-book" aria-label="book"></i> Thesis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./fieldexperience.html">
+ <span class="menu-text"><i class="fa-solid fa-business-time" aria-label="business-time"></i> Field Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./writingsamples.html">
+ <span class="menu-text"><i class="fa-solid fa-pen" aria-label="pen"></i> Writing Samples</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -122,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Robert Ritson’s GIS Portfolio</h1>
+<h1 class="title">Robert Ritson’s Wildlife Research Portfolio</h1>
 </div>
 
 
@@ -137,14 +170,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Hello,</p>
 <p>I’m Rob Ritson. I am a wildlife research scientist specializing in movement and spatial ecology. I am skilled at creating and managing large geographic information databases and proficient in RStudio and the ESRI suite. I am continuing to develop my coding skills in Python and currently teaching myself Julia.</p>
-<p>I have 5+ years of field experience conducting population and habitat monitoring with a diversity of species in collaboration with state and federal agencies as well as 5+ years analytical experience managing large GPS data sets, assessing spatial patterns, and composing scientific manuscripts.</p>
+<p>I have 8+ years of field experience conducting population and habitat monitoring with a diversity of species in collaboration with state and federal agencies as well as 5+ years analytical experience managing large GPS data sets, assessing spatial patterns, and composing scientific manuscripts.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="_images/IMG_20200524_103402736.jpg" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Checking wildlife camera traps in North Idaho as an IDFG Widlife Technicain</figcaption><p></p>
 </figure>
+</div>
+<p><i class="fa-solid fa-location-crosshairs" aria-label="location-crosshairs"></i> Places I’ve worked</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="mapboxer html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3de3879b6ba90064fa11" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-3de3879b6ba90064fa11">{"x":{"source":null,"calls":[{"methodName":"addControl","args":{"controlName":"NavigationControl","pos":"top-left","options":{"showCompass":true}}},{"methodName":"addControl","args":{"controlName":"ScaleControl","pos":"bottom-right","options":{"unit":"metric"}}},{"methodName":"addControl","args":{"controlName":"ScaleControl","pos":"bottom-right","options":{"unit":"imperial"}}},{"methodName":"addMarker","args":{"lng":-112.4506,"lat":42.8621,"popup":"Associate Research Scientist (UW/IDFG)"}},{"methodName":"addMarker","args":{"lng":-116.5598,"lat":43.5788,"popup":"Research Associate (WMI/IDFG)"}},{"methodName":"addMarker","args":{"lng":-116.2023,"lat":43.615,"popup":"Wildlife Technician (IDFG)"}},{"methodName":"addMarker","args":{"lng":-109.8634,"lat":42.8679,"popup":"Habitat Biologist Technician (WGFD)"}},{"methodName":"addMarker","args":{"lng":-114.061,"lat":48.3858,"popup":"Biological Science Technicain (USFS-RMRS)"}},{"methodName":"addMarker","args":{"lng":-99.0817,"lat":40.6993,"popup":"Graduate Research Assistant (UNK)"}},{"methodName":"addMarker","args":{"lng":-96.802,"lat":45.0997,"popup":"Wild Turkey Technician (WVU)"}},{"methodName":"addMarker","args":{"lng":-112.8772,"lat":42.5732,"popup":"Lead Wildlife Research Technician (IDFG)"}},{"methodName":"addMarker","args":{"lng":-106.9264,"lat":37.8492,"popup":"Research Associate (MSU/USFS-RMRS)"}},{"methodName":"addMarker","args":{"lng":-107.8273,"lat":42.4947,"popup":"Sage-grouse Technician (UW)"}},{"methodName":"addMarker","args":{"lng":-75.1946,"lat":40.9868,"popup":"Snowshoe Hare Technician (PA-CFWRU)"}},{"methodName":"addMarker","args":{"lng":-103.4744,"lat":43.4316,"popup":"Biological Science Aid (WCNP)"}},{"methodName":"addMarker","args":{"lng":-81.4389,"lat":30.8533,"popup":"Volunteer Research Technician (PSU)"}},{"methodName":"addMarker","args":{"lng":-77.8653,"lat":40.8148,"popup":"Work-Study (PSU Extension)"}}],"mapProps":{"style":"mapbox://styles/mapbox/satellite-v9","center":[-102.187492857143,41.8651571428571],"zoom":2},"accessToken":"pk.eyJ1IjoicnJpdHNvbiIsImEiOiJja3poOXo2b3Y0MGg2MnZuZm43ejc2bXl1In0.YrjCYPgR0i8yyiOCb09-Bg"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f6494d417c2a0037334d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f6494d417c2a0037334d">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14"],["Associate Research Scientist (UW/IDFG)","Research Associate (WMI/IDFG)","Wildlife Technician (IDFG)","Habitat Biologist Technician (WGFD)","Biological Science Technicain (USFS-RMRS)","Graduate Research Assistant (UNK)","Wild Turkey Technician (WVU)","Lead Wildlife Research Technician (IDFG)","Research Associate (MSU/USFS-RMRS)","Sage-grouse Technician (UW)","Snowshoe Hare Technician (PA-CFWRU)","Biological Science Aid (WCNP)","Volunteer Research Technician (PSU)","Work-Study (PSU Extension)"],["Pocatello, ID","Nampa, ID","Boise, ID","Pinedale, WY","Hungry Horse, MT","Kearney, NE","Stockholm, SD","Rockland, ID","Creed, CO","Jeffrey City, WY","Stroudsburg, PA","Hot Springs, SD","Cumberland Island, GA","University Park, PA"],[-112.4506,-116.5598,-116.2023,-109.8634,-114.061,-99.0817,-96.802,-112.8772,-106.9264,-107.8273,-75.1946,-103.4744,-81.4389,-77.8653],[42.8621,43.5788,43.615,42.8679,48.3858,40.6993,45.0997,42.5732,37.8492,42.4947,40.9868,43.4316,30.8533,40.8148]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Job<\/th>\n      <th>Location<\/th>\n      <th>WGS84_Long<\/th>\n      <th>WGS84_Lat<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[0]; $(row).css({'background':'white'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+</div>
 </div>
 
 

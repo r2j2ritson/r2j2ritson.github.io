@@ -125,6 +125,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-submit-button-title": "Submit"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.5/fill.css" rel="stylesheet">
+<link href="site_libs/bslib-grid-styles-0.5.1/grid.css" rel="stylesheet">
+<script src="site_libs/bslib-tag-require-0.5.1/tag-require.js"></script>
+<link href="site_libs/bslib-value_box-styles-0.5.1/value_box.css" rel="stylesheet">
+<script src="site_libs/bslib-card-js-0.5.1/card.min.js"></script>
+<link href="site_libs/bslib-card-styles-0.5.1/card.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -139,7 +145,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><i class="fa-solid fa-globe" aria-label="globe"></i></span>
+    <span class="navbar-title"><i class="fa-solid fa-house" aria-label="house"></i></span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -148,12 +154,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
- <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html">
  <span class="menu-text"><i class="fa-solid fa-file" aria-label="file"></i> CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cameras.html">
+ <span class="menu-text"><i class="fa-solid fa-camera" aria-label="camera"></i> Cameras</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./idfg.html">
+ <span class="menu-text"><i class="fa-solid fa-map-location-dot" aria-label="map-location-dot"></i> IDFG Regional Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./eclipseproj.html" aria-current="page">
@@ -164,8 +174,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text"><i class="fa-solid fa-tree" aria-label="tree"></i> FSVM</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./migrations.html">
+ <span class="menu-text"><i class="fa-solid fa-shuffle" aria-label="shuffle"></i> Migrations</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./seasonalranges.html">
  <span class="menu-text"><i class="fa-solid fa-paw" aria-label="paw"></i> Seasonal Ranges</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./thesis.html">
+ <span class="menu-text"><i class="fa-solid fa-book" aria-label="book"></i> Thesis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./fieldexperience.html">
+ <span class="menu-text"><i class="fa-solid fa-business-time" aria-label="business-time"></i> Field Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./writingsamples.html">
+ <span class="menu-text"><i class="fa-solid fa-pen" aria-label="pen"></i> Writing Samples</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -182,7 +208,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fa-scroll-python-function" id="toc-fa-scroll-python-function" class="nav-link active" data-scroll-target="#fa-scroll-python-function"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Python function</a></li>
+  <li><a href="#fa-chart-gantt-behavioral-change-point-analysis" id="toc-fa-chart-gantt-behavioral-change-point-analysis" class="nav-link active" data-scroll-target="#fa-chart-gantt-behavioral-change-point-analysis"><i class="fa-solid fa-chart-gantt" aria-label="chart-gantt"></i> Behavioral Change Point Analysis</a></li>
+  <li><a href="#fa-scroll-python-function" id="toc-fa-scroll-python-function" class="nav-link" data-scroll-target="#fa-scroll-python-function"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Python function</a></li>
   <li><a href="#fa-code-r-code" id="toc-fa-code-r-code" class="nav-link" data-scroll-target="#fa-code-r-code"><i class="fa-solid fa-code" aria-label="code"></i> R Code</a></li>
   </ul>
 </nav>
@@ -207,6 +234,99 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<div class="cell">
+<div class="cell-output-display">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box border-0 bg-success" data-bslib-card-init="" data-require-bs-caller="card() value_box()" data-require-bs-version="5 5">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="bslib-grid bslib-mb-spacing html-fill-item value-box-grid" data-require-bs-caller="layout_column_wrap()" data-require-bs-version="5" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;gap:0px; --bslib-value-box-widths:30% 70%;--bslib-value-box-widths-full-screen:1fr auto;">
+<div class="bslib-gap-spacing html-fill-container">
+<div class="value-box-showcase overflow-hidden html-fill-item html-fill-container" style="--bslib-value-box-max-height:100px;--bslib-value-box-max-height-full-screen:67%;"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" xlink="http://www.w3.org/1999/xlink" id="svg2" sodipodi:docname="eclipse.svg" viewbox="0 0 793.71 843.88" version="1.1" inkscape:version="0.48.0 r9654">
+  <defs id="defs4">
+    <filter id="filter3809" inkscape:collect="always" color-interpolation-filters="sRGB">
+      <fegaussianblur id="feGaussianBlur3811" stddeviation="13.105121" inkscape:collect="always"></fegaussianblur>
+    </filter>
+    <filter id="filter3839" height="2.5306" width="2.5306" color-interpolation-filters="sRGB" y="-.76528" x="-.76528" inkscape:collect="always">
+      <fegaussianblur id="feGaussianBlur3841" stddeviation="170.36657" inkscape:collect="always"></fegaussianblur>
+    </filter>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="24" fit-margin-left="0" pagecolor="#ffffff" fit-margin-top="0" inkscape:window-maximized="1" inkscape:zoom="0.35" inkscape:window-x="0" inkscape:window-height="742" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="242.63763" inkscape:cy="409.07532" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1280" inkscape:pageopacity="0.0" inkscape:document-units="px"></sodipodi:namedview>
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(3.3438 -97.562)">
+    <rect id="rect2985" style="stroke:#000000;stroke-width:1.0566;fill:#000000" height="842.84" width="803.35" y="98.087" x="-2.8462"></rect>
+    <path id="path2989" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="filter:url(#filter3809);stroke:#ffffff;fill:#ffffff" sodipodi:type="arc" d="m954.29 708.08c0 147.54-119.6 267.14-267.14 267.14s-267.14-119.6-267.14-267.14 119.6-267.14 267.14-267.14 267.14 119.6 267.14 267.14z" transform="translate(-303.71 -191.14)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+    <path id="path2991" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="stroke:#000000;fill:#000000" sodipodi:type="arc" d="m954.29 708.08a267.14 267.14 0 1 1 -534.29 0 267.14 267.14 0 1 1 534.29 0z" transform="matrix(1.0107 0 0 1.0107 -324.48 -200.42)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+    <path id="path3813" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="filter:url(#filter3839);stroke:#000000;fill:#ffffff" sodipodi:type="arc" d="m954.29 708.08c0 147.54-119.6 267.14-267.14 267.14s-267.14-119.6-267.14-267.14 119.6-267.14 267.14-267.14 267.14 119.6 267.14 267.14z" transform="matrix(.14287 0 0 .14498 498.4 563.7)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+    <path id="path3843" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="filter:url(#filter3839);stroke:#000000;fill:#ffffff" sodipodi:type="arc" d="m954.29 708.08c0 147.54-119.6 267.14-267.14 267.14s-267.14-119.6-267.14-267.14 119.6-267.14 267.14-267.14 267.14 119.6 267.14 267.14z" transform="matrix(.14287 0 0 .14498 498.4 563.7)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+    <path id="path3845" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="filter:url(#filter3839);stroke:#000000;fill:#ffffff" sodipodi:type="arc" d="m954.29 708.08c0 147.54-119.6 267.14-267.14 267.14s-267.14-119.6-267.14-267.14 119.6-267.14 267.14-267.14 267.14 119.6 267.14 267.14z" transform="matrix(.14287 0 0 .14498 498.4 563.7)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+    <path id="path3847" sodipodi:rx="267.14285" sodipodi:ry="267.14285" style="filter:url(#filter3839);stroke:#000000;fill:#ffffff" sodipodi:type="arc" d="m954.29 708.08c0 147.54-119.6 267.14-267.14 267.14s-267.14-119.6-267.14-267.14 119.6-267.14 267.14-267.14 267.14 119.6 267.14 267.14z" transform="matrix(.28229 0 0 .28646 405.42 462.1)" sodipodi:cy="708.07648" sodipodi:cx="687.14288"></path>
+  </g>
+  <metadata>
+    <rdf:rdf>
+      <cc:work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"></cc:license>
+        <dc:publisher>
+          <cc:agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:agent>
+        </dc:publisher>
+        <dc:title>Eclipse</dc:title>
+        <dc:date>2011-01-01T19:54:47</dc:date>
+        <dc:description>A simple rendering of an eclipse using very basic shapes and effects</dc:description>
+        <dc:source>https://openclipart.org/detail/102949/eclipse.svg-by-narrowhouse</dc:source>
+        <dc:creator>
+          <cc:agent>
+            <dc:title>narrowhouse</dc:title>
+          </cc:agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:bag>
+            <rdf:li>basic</rdf:li>
+            <rdf:li>blur</rdf:li>
+            <rdf:li>eclipse</rdf:li>
+            <rdf:li>flare</rdf:li>
+            <rdf:li>simple</rdf:li>
+          </rdf:bag>
+        </dc:subject>
+      </cc:work>
+      <cc:license rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"></cc:permits>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"></cc:permits>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"></cc:permits>
+      </cc:license>
+    </rdf:rdf>
+  </metadata>
+</svg></div>
+</div>
+<div class="bslib-gap-spacing html-fill-container">
+<div class="value-box-area html-fill-item html-fill-container border-start">
+<p>Field Data</p>
+<p>664,128 total spatial records</p>
+<p>
+16 species
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-bug " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6a3.989 3.989 0 0 0-1.334-2.982A3.983 3.983 0 0 0 8 2a3.983 3.983 0 0 0-2.667 1.018A3.989 3.989 0 0 0 4 6h8z"></path></svg>
+</p>
+<p>
+18 sources
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-shield " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"></path></svg>
+</p>
+<p>
+22 attributes
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-database " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"></path></svg>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+</div>
+</div>
+<div class="cell-output-display">
+<div class="bslib-grid bslib-mb-spacing html-fill-item" data-require-bs-caller="layout_column_wrap()" data-require-bs-version="5" style="grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));grid-auto-rows:1fr;--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;"></div>
+</div>
+</div>
 <p>During my master’s thesis, I completed a side project funded by a NASA mini-grant which assessed wildlife movements during the 2017 Great American Solar Eclipse. GPS data was provided by a number of collaborators from across the country. I published one <a href="https://www.mdpi.com/2076-2615/9/2/59/htm">article</a> related to this research, and another is currently in preparation, but the analysis is on-going. I recently enhanced this analysis by leveraging the powerful astronomical calculation Python module <a href="https://pypi.org/project/ephem/"><code>ephem</code></a> into a function called by R to assess the conditions of the solar eclipse experienced by each recorded location of each individual animal in order to parse potential behavioral changes related to the eclipse. This research is currently being prepared for <em>Movement Ecology</em>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -214,6 +334,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p></p><figcaption class="figure-caption">Map of average locations during 2017 Great American Solar Eclipse.</figcaption><p></p>
 </figure>
 </div>
+<section id="fa-chart-gantt-behavioral-change-point-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="fa-chart-gantt-behavioral-change-point-analysis"><i class="fa-solid fa-chart-gantt" aria-label="chart-gantt"></i> Behavioral Change Point Analysis</h2>
+<p>I am analyzing the wildlife movements collected during the 2017 Great American Solar Eclipse using behavioral change point analysis with the R package <code>bcpa</code> and <code>smoove</code> to examine potential abrupt changes in movement characteristics which could correspond with the onset of the eclipse.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="_images\Smooth_27.jpeg" height="350" class="figure-img"></p>
+<p></p><figcaption class="figure-caption">Purple vertical lines indicate candidate points in time where an animal’s behavior changed based on it’s movement characteristics (persistence velocity), The dark grey box corresponds with the time period of the ecilipse and black dotted line indicates the time of the maximum eclipse (i.e.&nbsp;totality).</figcaption><p></p>
+</figure>
+</div>
+</section>
 <section id="fa-scroll-python-function" class="level2">
 <h2 class="anchored" data-anchor-id="fa-scroll-python-function"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Python function</h2>
 <p>I created a function in Python inspired by a script I found which calculated the start time for a particular eclipse (March 2015) at one particular location. I expanded it to return the start and end times of the eclipse, the time of the maximum eclipse, and the maximum obscuration percentage (how much of the sun was blocked at the eclipse maximum).</p>
